@@ -1,0 +1,16 @@
+.menu{
+    background-color: white;
+    padding: 16px;
+    margin-top: 64px; 
+    margin-left: 50%;
+}
+.main{
+    display: flex;
+    flex-flow: row;
+}
+@media(max-width: 800px){
+    .menu{
+        margin-left: 0;
+        padding: 16px;
+    }
+}

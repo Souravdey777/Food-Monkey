@@ -1,0 +1,44 @@
+.Item {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    max-width: 425px;
+    text-align: left;
+    width: 100%;
+    font-size: 8px;
+    margin: 30px auto;
+    padding: 8px;
+    box-shadow: rgba(132, 135, 138, 0.4) 0px 2px 8px 0px;
+    background-color: white;
+    color: black;
+    user-select: none;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.alltext{
+    display: flex;   
+    flex-flow: column;
+    justify-content: flex-start;
+    line-height: 0.5;
+}
+
+.image{
+    border: 1px solid black;
+    width: 100px;
+    margin: 8px;
+    text-align: center;
+}
+
+@media (min-width: 525px){
+    .Item{
+        font-size: 10px;
+        margin: 16px auto;
+        padding: 4px 16px;
+    }
+}
+
+.Item:hover{
+    background-color: #070003; /* Old browsers */
+color: whitesmoke;
+}
